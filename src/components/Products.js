@@ -25,11 +25,11 @@ export default function Products()
 {
 
     return(
-        <div className="mb-10 sm:mb-20">
+        <div className="py-10 sm:mb-20">
             <div className="container overflow-hidden">
 
                 {/*Header*/}
-                <div className="text-center w-max-[600px] mx-auto mb-2 sm:mb-10">
+                <div className="text-center max-w-[600px] mx-auto mb-2 sm:mb-10">
                     <h1 data-aos="fade-up" className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Collections</h1>
                 </div>
 

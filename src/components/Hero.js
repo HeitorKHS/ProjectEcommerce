@@ -32,7 +32,7 @@ export default function Hero()
 
     return(
         
-        <div className="relative mb-5 sm:mb-20">
+        <div className="relative mb-5 sm:mb-20 md:mt-0">
 
             <Slider {...settings}>             
                     {imagem.map((url, index) => (
