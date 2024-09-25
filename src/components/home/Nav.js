@@ -13,15 +13,15 @@ export default function Nav()
 
     return(
 
-        <div className="shadow-md bg-white">   
+        <div className="bg-white relative">   
             {/* Nav Top */}
             <div className="bg-primary/40 py-2">
                 <div className="container grid md:grid-cols-3 md:grid-rows-1 grid-rows-2 place-items-center">
 
-                <button onClick={() => setIsOpen(!isOpen)} 
-                    className="md:hidden flex items-center text-secondary row-start-1">
-                    <IoMenu className="text-[30px]" />
-                </button>
+                    <button onClick={() => setIsOpen(!isOpen)} 
+                        className="md:hidden flex items-center text-secondary row-start-1">
+                        <IoMenu className="text-[30px]" />
+                    </button>
 
                     {/*Logo*/}
                     <div className="row-start-1">
@@ -33,7 +33,7 @@ export default function Nav()
                     {/*Search*/}
                     <div className="row-start-2 col-span-3 md:col-span-1 md:row-start-1">
                         <div className="relative mt-2 md:mt-0">
-                            <input type="text" placeholder="Search" className="w-[200px] md:w-[300px] rounded-full border border-gray-300 px-2 py-1 pr-10"/>
+                            <input type="text" placeholder="Search" className="w-[180px] md:w-[300px] rounded-full border border-gray-300 px-2 py-1 pr-10"/>
                             <FaSearch className="text-[#0c4a6e] absolute top-1/2 -translate-y-1/2 right-3"/>
                         </div>                      
                     </div>
@@ -54,8 +54,8 @@ export default function Nav()
 
             {/* Nav low */}
             <div className={`${isOpen ? 'block' : 'hidden'} md:block absolute md:static z-[9999] w-[200px] md:w-full`}>
-                <nav className="flex justify-center bg-white shadow-2xl p-2">
-                    <ul className="flex flex-col md:flex-row items-center md:space-x-4 gap-5 md:gap-0 text-lg font-semibold">
+                <nav className="flex justify-center bg-white">
+                    <ul className="flex flex-col md:flex-row items-center md:space-x-4 gap-5 md:gap-0">
                         <li className="w-full hover:text-primary duration-200 px-4 inline-block"><a href="#">Man</a></li>
                         <li className="w-full hover:text-primary duration-200 px-4 inline-block"><a href="#">Woman</a></li>
                         <li className="w-full hover:text-primary duration-200 px-4 inline-block"><a href="#">Kid</a></li>

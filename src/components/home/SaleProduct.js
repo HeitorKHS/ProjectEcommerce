@@ -1,73 +1,71 @@
 import React from 'react'
-import image1 from "../assets/products_sale/image1.png"
-import image2 from "../assets/products_sale/image2.png"
-import image3 from "../assets/products_sale/image3.png"
+import image from "../../assets/products_sale/image.jpg"
 import Slider from 'react-slick';
 
 const ProductsData = [
   {
     id: 1,
-    name: "Saints",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 1",
+    descrition: "This is the product description",
     price: 300,
     sale: 30,
-    image: image1
+    image: image
   },  
   {
     id: 2,
-    name: "Lakers",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 2",
+    descrition: "This is the product description",
     price: 250,
     sale: 30,
-    image: image2
+    image: image
   },  
   {
     id: 3,
-    name: "Celtics",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 3",
+    descrition: "This is the product description",
     price: 280,
     sale: 30,
-    image: image3
+    image: image
   },  
   {
     id: 4,
-    name: "Lakers",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 4",
+    descrition: "This is the product description",
     price: 180,
     sale: 30,
-    image: image2
+    image: image
   },  
   {
     id: 5,
-    name: "Celtics",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 5",
+    descrition: "This is the product description",
     price: 320,
     sale: 30,
-    image: image3
+    image: image
   },  
   {
     id: 6,
-    name: "Celtics",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 6",
+    descrition: "This is the product description",
     price: 315,
     sale: 30,
-    image: image3
+    image: image
   },  
   {
     id: 7,
-    name: "Saints",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 7",
+    descrition: "This is the product description",
     price: 185,
     sale: 30,
-    image: image1
+    image: image
   },  
   {
     id: 8,
-    name: "Celtics",
-    descrition: "abcdefghijklmnopqr",
+    name: "Product 8",
+    descrition: "This is the product description",
     price: 199.99,
     sale: 30,
-    image: image3
+    image: image
   }
 ]
 
@@ -107,24 +105,25 @@ export default function SaleProducts()
   };
 
     return(
-      <div className="my-10 mb-10">
-        <div className="container overflow-hidden">
+      <div className="mt-14 sm:mb-12">
+        <div className="container">
             
             {/*Header*/}
-            <div className="text-center mb-2 sm:mb-10">
+            <div data-aos="zoom-in" className="flex space-x-5 justify-center items-end mt-[20px] mb-[32px] ">
                 <h1 className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Products on Sale</h1>
+                <a href="#" className="font-semibold">See More ...</a>
             </div>
 
              {/*Body*/}
-             <div className="p-5"  >
+             <div data-aos="fade-up">
               <Slider {...settings}>
                 {ProductsData.map((data)=>(
-                  <div className="py-5">
-                    <div data-aos="zoom-in" className="group  max-w-[220px] rounded-2xl relative p-2 border border-gray-300 shadow-xl mx-auto">
+                  <div>
+                    <div className="group max-w-[220px] rounded-2xl relative p-2 border border-gray-300 shadow-xl mx-auto">
                       <a href="#">
                         {/*img*/}
-                        <div className="bg-[#E9E9E9] rounded-md p-5">
-                          <img src={data.image} alt={data.id} className=" max-h-[150px] mx-auto transition-transform duration-300 transform sm:group-hover:scale-110"/>   
+                        <div className="overflow-hidden p-5">
+                          <img src={data.image} alt={data.id} className=" max-h-[180px] rounded-md mx-auto position-fill transition-transform duration-300 transform sm:group-hover:scale-110"/>   
                         </div>
                         {/*Details*/}
                         <div className="p-4 text-center">

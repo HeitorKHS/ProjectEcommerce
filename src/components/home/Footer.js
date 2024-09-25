@@ -11,7 +11,7 @@ export default function Footer()
 {
 
     return(     
-        <div className="text-white bg-black">
+        <div className="text-white bg-secondary">
             <div className="container">
                 <div className="grid pb-10 pt-5">
                     
@@ -44,7 +44,7 @@ export default function Footer()
                         </div>
 
                         {/*Social links*/}
-                        <div>
+                        <div className="flex flex-col col-span-2 items-center md:items-end md:col-span-1">
                             <div className="flex gap-3 mt-5">
                                 <a href="#"><SlSocialFacebook className="text-3xl"/></a>
                                 <a href="#"><SlSocialLinkedin className="text-3xl"/></a>

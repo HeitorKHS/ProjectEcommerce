@@ -1,13 +1,13 @@
 import React, {useEffect} from "react";
-import Nav from "../components/Nav";
-import Hero from "../components/Hero";
-import Products from "../components/Products";
-import SaleProducts from "../components/SaleProduct";
-import Banner from "../components/Banner";
-import Follow from "../components/Follow";
-import BestProducts from "../components/BestProducts";
-import Review from "../components/Reviews";
-import Footer from "../components/Footer";
+import Nav from "../components/home/Nav";
+import Hero from "../components/home/Hero";
+import Products from "../components/home/Products";
+import SaleProducts from "../components/home/SaleProduct";
+import Banner from "../components/home/Banner";
+import Follow from "../components/home/Follow";
+import BestProducts from "../components/home/BestProducts";
+import Review from "../components/home/Reviews";
+import Footer from "../components/home/Footer";
 import AOS from "aos";
 import 'aos/dist/aos.css'; 
 
@@ -16,9 +16,9 @@ export default function Home()
 
     useEffect(()=>{
         AOS.init({ 
-            duration: 1000, 
-            delay: 70,
-            offset: 100,
+            duration: 800, 
+            delay: 100,
+            offset: 600,
             easing:"ease-in-out"
         }); 
         AOS.refresh();
