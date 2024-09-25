@@ -109,9 +109,8 @@ export default function SaleProducts()
         <div className="container">
             
             {/*Header*/}
-            <div data-aos="zoom-in" className="flex space-x-5 justify-center items-end mt-[20px] mb-[32px] ">
-                <h1 className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Products on Sale</h1>
-                <a href="#" className="font-semibold">See More ...</a>
+            <div data-aos="zoom-in" className="md:mt-[100px] mb-[32px] ">
+                <h1 className="text-center text-xl sm:text-3xl font-bold text-[#0c4a6e]">Products on Sale</h1>
             </div>
 
              {/*Body*/}

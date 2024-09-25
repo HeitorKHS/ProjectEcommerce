@@ -25,13 +25,12 @@ export default function Products()
 {
 
     return(
-        <div className="mt-14 sm:mb-12">
+        <div className="mt-14 mb-12">
             <div className="container">
 
                 {/*Header*/}
-                <div data-aos-offset="200" data-aos="zoom-in" className="flex justify-center items-end space-x-5 mb-10 mt-[20px]  ">
-                    <h1  className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Collections</h1>
-                    <a href="#" className="font-semibold">See More ...</a>
+                <div data-aos-offset="200" data-aos="zoom-in" className="mb-10">
+                    <h1  className=" text-center text-xl sm:text-3xl font-bold text-[#0c4a6e]">Collections</h1>
                 </div>
 
                 {/*Body*/}

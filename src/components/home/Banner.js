@@ -4,8 +4,8 @@ import nfl from "../../assets/banner/football.jpg"
 export default function Banner()
 {
     return(
-        <div className="min-h-[550px] flex justify-center items-center">
-            <div data-aos="zoom-in" className="container">
+        <div data-aos="zoom-in" className="min-h-[550px] flex justify-center items-center">
+            <div className="container">
 
                     <div className="grid md:grid-cols-2 gap-6 place-items-center p-5 bg-gray-200 rounded-xl">
                         <div className="rounded-xl">

@@ -29,7 +29,7 @@ export default function BestProducts()
             <div className="container">
 
                 {/*Header*/}
-                <div className="text-center mb-2 sm:mb-10 mt-top">
+                <div className="text-center mb-10">
                     <h1 data-aos="zoom-in" className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Best Rated</h1>
                 </div>
 

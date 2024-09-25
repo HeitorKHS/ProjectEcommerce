@@ -15,32 +15,28 @@ export default function Footer()
             <div className="container">
                 <div className="grid pb-10 pt-5">
                     
-                    <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 ">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2">
                         {/*About company*/}
                         <div>
-                            <div className="">
-                                <h1 className="text-xl sm:text-3xl font-bold text-left mb-3">Institutional</h1>
-                                <ul className="flex flex-col gap-3">
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">About Shopp</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Shopp Blog</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Sustainability</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Work with us</a></li>
-                                </ul>
-                            </div>
+                            <h1 className="text-xl sm:text-3xl font-bold text-left mb-3">Institutional</h1>
+                            <ul className="flex flex-col gap-3">
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">About Shopp</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Shopp Blog</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Sustainability</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Work with us</a></li>
+                            </ul>
                         </div>
  
                          {/*About company*/}
-                        <div>
-                            <div className="">
-                                <h1 className="text-xl sm:text-3xl font-bold text-left mb-3">Help</h1>
-                                <ul className="flex flex-col gap-3">
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Exchanges and Returns</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Privacy Policy</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Regulations</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Frequently asked questions</a></li>
-                                    <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Talk to us</a></li>
-                                </ul>
-                            </div>
+                        <div>              
+                            <h1 className="text-xl sm:text-3xl font-bold text-left mb-3">Help</h1>
+                            <ul className="flex flex-col gap-3">
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Exchanges and Returns</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Privacy Policy</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Regulations</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Frequently asked questions</a></li>
+                                <li><a href="#" className="text-gray-300 hover:underline duration:300 font-semibold">Talk to us</a></li>
+                            </ul>
                         </div>
 
                         {/*Social links*/}

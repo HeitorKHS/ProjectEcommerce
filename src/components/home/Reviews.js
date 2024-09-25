@@ -89,11 +89,11 @@ export default function Review()
       };
 
     return(
-        <div  className="py-10 mb-10 mt-20">
+        <div  className="mt-14 mb-12">
            <div className="container">
                 
                 {/*Header*/}
-                <div className="text-center mb-2 sm:mb-10">
+                <div className="text-center mt-[100px] mb-10">
                     <h1 data-aos-offset="1000" data-aos="zoom-in" className="text-xl sm:text-3xl font-bold text-[#0c4a6e]">Customer Review</h1>
                 </div>
 
